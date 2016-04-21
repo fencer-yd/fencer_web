@@ -13,10 +13,35 @@
             <span>代码-如风</span>
         </div>
         <div class="head-nav-rt visible-lg visible-md">
-
+            <ul>
+                <li ng-click="commonNavMain.chooseNav($event)">
+                    <span>1</span>
+                </li>
+                <li ng-click="commonNavMain.chooseNav($event)">
+                    <span>2</span>
+                </li>
+                <li ng-click="commonNavMain.chooseNav($event)">
+                    <span>3</span>
+                </li>
+                <li ng-click="commonNavMain.chooseNav($event)">
+                    <span>4</span>
+                </li>
+            </ul>
         </div>
-        <div class="head-nav-rt visible-sm visible-xs">
-
+        <div class="head-nav-rt-s visible-sm visible-xs">
+            <button class="navbar-toggle" ng-click="commonNavMain.navRToogle($event)" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="nav-btn-ul visible-sm visible-xs">
+            <ul ng-class="{'show-nav-r-s':commonNavMain.isShowNavR}">
+                <li ng-click="commonNavMain.chooseNav($event)">1</li>
+                <li ng-click="commonNavMain.chooseNav($event)">2</li>
+                <li ng-click="commonNavMain.chooseNav($event)">3</li>
+                <li ng-click="commonNavMain.chooseNav($event)">4</li>
+            </ul>
         </div>
     </div>
     <div class="main-nav">

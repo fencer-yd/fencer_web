@@ -8,9 +8,9 @@
     width: 100%;
     height: 50px;
     background-color: #62f1ee;
-    -webkit-box-shadow: 0px 0 10px 1px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0 10px 1px rgba(0,0,0,0.5);
-    box-shadow: 0px 0 10px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
     z-index: 101;
 }
 
@@ -65,11 +65,89 @@
 }
 
 #common-nav-yd .head-nav .head-nav-rt{
-    width: 300px;
+    width: 400px;
     height: 100%;
     float: right;
 }
 
+#common-nav-yd .head-nav .head-nav-rt ul{
+    width: 100%;
+    height: 100%;
+}
+
+#common-nav-yd .head-nav .head-nav-rt ul li{
+    width: calc(100% / 4);
+    height: 100%;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+#common-nav-yd .head-nav .head-nav-rt ul li:active,
+#common-nav-yd .head-nav .head-nav-rt ul li:focus{
+    outline: none;
+}
+
+#common-nav-yd .head-nav .head-nav-rt ul li span{
+    line-height: 50px;
+}
+
+#common-nav-yd .head-nav .head-nav-rt-s{
+    width: 50px;
+    height: 100%;
+    float: right;
+}
+
+#common-nav-yd .head-nav .head-nav-rt-s .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+#common-nav-yd .head-nav .nav-btn-ul{
+    width: 150px;
+    position: fixed;
+    right: 0;
+    top: 50px;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: block;
+    }
+}
+#common-nav-yd .head-nav .nav-btn-ul ul{
+    height: 0;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 10px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 1px 10px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.3);
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+}
+
+#common-nav-yd .head-nav .nav-btn-ul ul.show-nav-r-s{
+    height: 125px;
+}
+
+#common-nav-yd .head-nav .nav-btn-ul ul li{
+    background-color: #fff;
+    padding: 5px 10px;
+    border-bottom: 1px solid #62F1EE;
+    text-align: center;
+}
+
+#common-nav-yd .head-nav .nav-btn-ul ul li:last-child{
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    border: 0;
+}
 
 /*第一页*/
 #common-nav-yd .main-nav .page1{
