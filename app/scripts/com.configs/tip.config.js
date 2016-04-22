@@ -31,8 +31,8 @@
 			progressBar: true,
 			tapToDismiss: true,
 			templates: {
-				toast: 'views/plugin/tip/toast.html',
-				progressbar: 'views/plugin/tip/progressbar.html'
+				toast: 'views/com.plugin/tip/toast.html',
+				progressbar: 'views/com.plugin/tip/progressbar.html'
 			},
 			timeOut: 5000,
 			titleClass: 'toast-title',

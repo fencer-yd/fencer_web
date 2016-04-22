@@ -9,7 +9,7 @@ a:hover { text-decoration:none; }
 img { border:none; }
 ol,ul,li { list-style:none; }
 input, textarea, select, button { font:12px Verdana,Helvetica,Arial,sans-serif; }
-input:focus, textarea:focus, select:focus, button:focus{  outline: none;  }
+span:active,li:active,input:active, textarea:active, select:active, button:active,span:focus,li:focus,input:focus, textarea:focus, select:focus, button:focus{  outline: none;  }
 button[disabled = 'disabled'] { cursor: not-allowed;}
 table { border-collapse:collapse; }
 html {overflow-y: auto;}

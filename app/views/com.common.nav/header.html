@@ -1,0 +1,47 @@
+<div id="header-yd">
+    <div class="head-nav">
+        <div class="head-nav-lt visible-lg visible-md">
+            <i>
+                <img class="h-center" src="../../images/com.common.nav/my_head.png" alt="图片加载失败">
+            </i>
+            <span>代码-如风</span>
+        </div>
+        <div class="head-nav-lt-s visible-sm visible-xs">
+            <i>
+                <img class="h-center" src="../../images/com.common.nav/my_head.png" alt="图片加载失败">
+            </i>
+            <span>代码-如风</span>
+        </div>
+        <div class="head-nav-rt visible-lg visible-md">
+            <ul>
+                <li ng-click="head.chooseNav($event)">
+                    <span>1</span>
+                </li>
+                <li ng-click="head.chooseNav($event)">
+                    <span>2</span>
+                </li>
+                <li ng-click="head.chooseNav($event)">
+                    <span>3</span>
+                </li>
+                <li ng-click="head.chooseNav($event)">
+                    <span>4</span>
+                </li>
+            </ul>
+        </div>
+        <div class="head-nav-rt-s visible-sm visible-xs">
+            <button class="navbar-toggle" ng-click="head.navRToogle($event)" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="nav-btn-ul visible-sm visible-xs">
+            <ul ng-class="{'show-nav-r-s':head.isShowNavR}">
+                <li ng-click="head.chooseNav($event)">1</li>
+                <li ng-click="head.chooseNav($event)">2</li>
+                <li ng-click="head.chooseNav($event)">3</li>
+                <li ng-click="head.chooseNav($event)">4</li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -12,7 +12,8 @@
 
 	angular.module('commonNavApp', [
 		'commonFullpageConfig',
-		'commonNavMain'
+		'commonNavMain',
+		'headerDirective'
 	]);
 
 })();
