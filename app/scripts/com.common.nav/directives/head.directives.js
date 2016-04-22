@@ -10,7 +10,7 @@
  */
 (function(){
 
-	var headerCtrl = function($timeout,toastr){
+	var headerCtrl = function($timeout,toaster){
 		var _self = this;
 		/**
 		 * @description 右边导航toogle变化
@@ -28,11 +28,11 @@
 		_self.chooseNav = function (e) {
 			e.stopPropagation();
 			_self.isShowNavR = false;
-			toastr.warning('别着急','建设中.....');
+			toaster.warning('别着急','建设中.....');
 		}
 	};
 
-	headerCtrl.$inject = ['$timeout','toastr'];
+	headerCtrl.$inject = ['$timeout','toaster'];
 
 	var header = function(){
 
