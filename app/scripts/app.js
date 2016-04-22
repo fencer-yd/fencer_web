@@ -20,6 +20,7 @@
 			'ngSanitize',
 			'ngTouch',
 			'ui.router',
+			'ui.bootstrap',
 			'toastr',
 			'toaster',
 

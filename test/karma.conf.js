@@ -38,6 +38,7 @@ module.exports = function(config) {
       'bower_components/fullpage.js/jquery.fullPage.js',
       'bower_components/fullpage.js/vendors/jquery.easings.min.js',
       'bower_components/fullpage.js/vendors/jquery.slimscroll.min.js',
+      'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
       // endbower
       'app/scripts/**/*.js',
       'test/mock/**/*.js',

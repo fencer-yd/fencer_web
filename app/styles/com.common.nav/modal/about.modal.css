@@ -1,0 +1,24 @@
+#about-modal-yd{
+    width: 100%;
+    height: 100%;
+}
+
+#about-modal-yd .modal-header .about-t-f{
+    display: inline-block;
+    float: left;
+}
+
+#about-modal-yd .modal-header .about-t-b{
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#about-modal-yd .modal-header .about-t-b:hover{
+    color: #00b3ee;
+}
+
+#about-modal-yd .modal-body .time-h{
+    display: inline-block;
+}

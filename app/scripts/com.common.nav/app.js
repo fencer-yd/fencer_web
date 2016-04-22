@@ -12,6 +12,7 @@
 
 	angular.module('commonNavApp', [
 		'commonFullpageConfig',
+		'imgConstant',
 		'commonNavMain',
 		'headerDirective'
 	]);

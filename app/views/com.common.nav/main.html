@@ -2,15 +2,33 @@
     <div class="main-nav">
         <div id="my_nav">
             <div class="section page1">
-                <div class="slide slide1">
-                    <svg>
-                        <path/>
-                    </svg>
+                <div class="slide1-container row">
+                    <div class="col-lg-2 col-md-2 visible-lg visible-md slide-box"></div>
+                    <div class="col-lg-8 col-md-8 visible-lg visible-md slide-box">
+                        <uib-carousel class="slide-box-a" active="active" interval="myInterval" no-wrap="noWrapSlides">
+                            <uib-slide class="slide-ui-box" ng-repeat="slide in slides track by slide.id" index="slide.id">
+                                <img ng-src="{{slide.image}}" style="margin:auto;">
+                                <div class="carousel-caption">
+                                    <pre>{{slide.text}}</pre>
+                                </div>
+                            </uib-slide>
+                        </uib-carousel>
+                    </div>
+                    <div class="col-lg-2 col-md-2 visible-lg visible-md slide-box"></div>
+                    <div class="col-xs-12 col-sm-12 visible-xs visible-sm slide-box">
+                        <uib-carousel class="slide-box-a" active="active" interval="myInterval" no-wrap="noWrapSlides">
+                            <uib-slide class="slide-ui-box" ng-repeat="slide in slides track by slide.id" index="slide.id">
+                                <img ng-src="{{slide.image}}" style="margin:auto;">
+                                <div class="carousel-caption">
+                                    <pre>{{slide.text}}</pre>
+                                </div>
+                            </uib-slide>
+                        </uib-carousel>
+                    </div>
                 </div>
-                <div class="slide"></div>
-                <div class="slide"></div>
-                <div class="slide"></div>
+                <div class="slide1-content">
 
+                </div>
             </div>
             <div class="section">
 

@@ -51,7 +51,3 @@
     border-radius: 4px;
     background: rgba(150, 150, 150, .3);
 }
-
-:not(pre):not(code):not(textarea):not(tt):not(kbd):not(samp):not(var) {
-    font-family: "PingFang SC"!important;
-}

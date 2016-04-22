@@ -14,17 +14,29 @@
         </div>
         <div class="head-nav-rt visible-lg visible-md">
             <ul>
-                <li ng-click="head.chooseNav($event)">
-                    <span>1</span>
+                <li ng-click="head.chooseNav($event,'home')">
+                    <span>
+                        <i class="fa fa-home"></i>
+                        团队主页
+                    </span>
                 </li>
-                <li ng-click="head.chooseNav($event)">
-                    <span>2</span>
+                <li ng-click="head.chooseNav($event,'history')">
+                    <span>
+                        <i class="fa fa-history"></i>
+                        项目历程
+                    </span>
                 </li>
-                <li ng-click="head.chooseNav($event)">
-                    <span>3</span>
+                <li ng-click="head.chooseNav($event,'product')">
+                    <span>
+                        <i class="fa fa-trophy"></i>
+                        个人作品
+                    </span>
                 </li>
-                <li ng-click="head.chooseNav($event)">
-                    <span>4</span>
+                <li ng-click="head.chooseNav($event,'about')">
+                    <span>
+                        <i class="fa fa-question-circle"></i>
+                        关于
+                    </span>
                 </li>
             </ul>
         </div>
@@ -37,10 +49,22 @@
         </div>
         <div class="nav-btn-ul visible-sm visible-xs">
             <ul ng-class="{'show-nav-r-s':head.isShowNavR}">
-                <li ng-click="head.chooseNav($event)">1</li>
-                <li ng-click="head.chooseNav($event)">2</li>
-                <li ng-click="head.chooseNav($event)">3</li>
-                <li ng-click="head.chooseNav($event)">4</li>
+                <li ng-click="head.chooseNav($event,'home')">
+                    <i class="fa fa-home"></i>
+                    团队主页
+                </li>
+                <li ng-click="head.chooseNav($event,'history')">
+                    <i class="fa fa-history"></i>
+                    项目历程
+                </li>
+                <li ng-click="head.chooseNav($event,'product')">
+                    <i class="fa fa-trophy"></i>
+                    个人作品
+                </li>
+                <li ng-click="head.chooseNav($event,'about')">
+                    <i class="fa fa-question-circle"></i>
+                    关于
+                </li>
             </ul>
         </div>
     </div>
