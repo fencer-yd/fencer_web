@@ -56,7 +56,7 @@
 				case 'about':
 					_self.aboutModal = $uibModal.open({
 						animation: true,
-						templateUrl: '/views/com.common.nav/modal/about.modal.html',
+						templateUrl: '../../../views/com.common.nav/modal/about.modal.html',
 						controller: 'aboutModalCtrl',
 						controllerAs: 'about',
 						size: 'sm',
