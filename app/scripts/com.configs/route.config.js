@@ -12,8 +12,10 @@
 
 (function () {
 
-	var routeConfig = function ($stateProvider, $urlRouterProvider) {
+	var routeConfig = function ($stateProvider, $urlRouterProvider,$locationProvider) {
 		$urlRouterProvider.otherwise('/');
+
+		$locationProvider.html5Mode(true);
 
 		$stateProvider
 			.state('main', {
@@ -24,7 +26,7 @@
 			});
 	};
 
-	routeConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
+	routeConfig.$inject = ['$stateProvider', '$urlRouterProvider','$locationProvider'];
 
 	angular.module('routeConfig', [])
 		.config(routeConfig);
