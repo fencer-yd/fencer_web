@@ -30,4 +30,5 @@
 	angular.module('imgConstant',[])
 		.constant('imgs',imgs);
 
+
 })();
