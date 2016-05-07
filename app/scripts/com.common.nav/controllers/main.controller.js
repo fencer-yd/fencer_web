@@ -49,6 +49,12 @@
 			return array;
 		};
 
+
+		/**
+		 * anonymous function - description
+		 *
+		 * @return {type}  description
+		 */
 		$scope.randomize = function () {
 			var indexes = generateIndexesArray();
 			assignNewIndexesToSlides(indexes);

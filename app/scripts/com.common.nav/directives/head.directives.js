@@ -18,8 +18,7 @@
 		 */
 		_self.close = function () {
 			$uibModalInstance.dismiss('cancel');
-		}
-
+		};
 	};
 
 	aboutModalCtrl.$inject = ['$uibModalInstance'];
