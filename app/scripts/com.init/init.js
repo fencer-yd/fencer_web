@@ -8,14 +8,14 @@
  *
  * Created by yangdeng on 16/4/20.
  */
-(function(){
+(function () {
 
-	var init = function(){
-	};
+  var init = function () {
+  };
 
-	init.$inject = [];
+  init.$inject = [];
 
-	angular.module('fencerApp')
-		.run(init);
+  angular.module('fencerApp')
+    .run(init);
 
 })();

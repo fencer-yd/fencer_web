@@ -22,3 +22,20 @@
 #about-modal-yd .modal-body .time-h{
     display: inline-block;
 }
+
+#about-modal-yd .time-h{
+    width: 100%;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+#about-modal-yd .time-h label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+#about-modal-yd .time-h .user{
+    width: calc(100% - 100px);
+    float: right;
+}
